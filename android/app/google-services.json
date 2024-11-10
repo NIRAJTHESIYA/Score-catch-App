@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "199244557117",
+    "project_id": "scores-catch",
+    "storage_bucket": "scores-catch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199244557117:android:f5f6d275e916bcc5183354",
+        "android_client_info": {
+          "package_name": "com.example.cricket"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvJOrviWDTZlDhTwq7c-sCAGMYUngAwgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
