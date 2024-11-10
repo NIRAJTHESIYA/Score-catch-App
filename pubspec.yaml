@@ -1,0 +1,77 @@
+name: cricket
+description: "Scores Catch"
+publish_to: ''
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.4.1
+  firebase_auth: ^5.2.1
+  cloud_firestore: ^5.4.1
+  image_picker: ^1.1.2
+  firebase_storage: ^12.3.0
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  intl: ^0.18.0
+  flutter_lints: ^4.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/logo/
+    - assets/logo/facebook.png
+    - assets/logo/google.png
+
+  fonts:
+    - family: bold
+      fonts:
+        - asset: assets/fonts/Ubuntu/Ubuntu-Bold.ttf
+    - family: extrabold
+      fonts:
+        - asset: assets/fonts/Ubuntu/Ubuntu-Bold.ttf
+    - family: light
+      fonts:
+        - asset: assets/fonts/Ubuntu/Ubuntu-Light.ttf
+    - family: medium
+      fonts:
+        - asset: assets/fonts/Ubuntu/Ubuntu-Medium.ttf
+    - family: Regular
+      fonts:
+        - asset: assets/fonts/Ubuntu/Ubuntu-Regular.ttf
+    - family: thin
+      fonts:
+        - asset: assets/fonts/Ubuntu/Ubuntu-Light.ttf 
+
+  # fonts:
+    - family: S-bold
+      fonts:
+        - asset: assets/fonts/Jost-Bold.ttf
+    - family: S-extrabold
+      fonts:
+        - asset: assets/fonts/Jost-ExtraBold.ttf
+    - family: S-light
+      fonts:
+        - asset: assets/fonts/Jost-Light.ttf
+    - family: S-medium
+      fonts:
+        - asset: assets/fonts/Jost-Medium.ttf
+    - family: S-Regular
+      fonts:
+        - asset: assets/fonts/Jost-Regular.ttf
+    - family: S-thin
+      fonts:
+        - asset: assets/fonts/Jost-Thin.ttf 
+
